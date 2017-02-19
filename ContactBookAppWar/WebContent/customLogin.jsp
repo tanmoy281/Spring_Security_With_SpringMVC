@@ -16,7 +16,7 @@
 <title>Spring 4 Security Example</title>
 </head>
 <body>
-	<h3>Spring 4 Security Example</h3>
+	<h3 align="center">Spring 4 Security Example</h3>
 	<font color="red"> ${SPRING_SECURITY_LAST_EXCEPTION.message} </font>
 	<c:if test="${param.logout != null}">
 		<p>You have been logged out.</p>
