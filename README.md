@@ -8,3 +8,13 @@ Home page url: http://HOST:PORT/ContactBookAppWar/
 You need to place sqljdbc42.jar to ContactBookAppWar/libs folder, as this artifact is not available in maven central repository.
 
 Required: MS SQL Server 2014 Express.
+
+DB Settings: 
+
+1. Set ms sql server anthentication type as 'SQL Server Authentication'.(Not Windows Authentication)
+
+
+2. Run the db script stored in Database Administration/DB backup/DatabaseScript.sql to sql server query window.
+
+
+3. Make sure the db url, username and password in ContactBookAppWar/WebContent/WEB-INF/jdbc.properties match with your sql server db properties.
