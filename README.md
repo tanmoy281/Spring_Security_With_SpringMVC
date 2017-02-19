@@ -14,7 +14,7 @@ DB Settings:
 1. Set ms sql server anthentication type as 'SQL Server Authentication'.(Not Windows Authentication)
 
 
-2. Run the db script stored in Database Administration/DB backup/DatabaseScript.sql to sql server query window.
+2. Run the db script stored in Database Administration/DB backup/DatabaseScript.sql in a query window.
 
 
 3. Make sure the db url, username and password in ContactBookAppWar/WebContent/WEB-INF/jdbc.properties match with your sql server db properties.
