@@ -1,0 +1,5 @@
+include ":ContractModule"
+include ":ServiceModule"
+include ":ControllerModule"
+include ":AuthModule"
+include ":ContactBookAppWar"
