@@ -23,11 +23,13 @@ public class RootConfig {
 	private String userid;
 	@Value("${jdbc.password}")
 	private String passwod;
+	@Value("${jdbc.driverclassname}")
+	private String driverclassname;
 	
 	@Bean(name = "dataSource")
 	public DriverManagerDataSource dataSource() {
 		DriverManagerDataSource driverManagerDataSource = new DriverManagerDataSource();
-		driverManagerDataSource.setDriverClassName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+		driverManagerDataSource.setDriverClassName(driverclassname);
 		driverManagerDataSource.setUrl(url);
 		driverManagerDataSource.setUsername(userid);
 		driverManagerDataSource.setPassword(passwod);
